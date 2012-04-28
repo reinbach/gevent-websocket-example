@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-from disutils.core import setup
+from setuptools import setup
 
 requires = [
-    'Flask==8.0',
+    'Flask==0.8',
     'gevent==0.13.7',
     'gevent-websocket==0.3.6',
 ]
